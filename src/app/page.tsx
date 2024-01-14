@@ -15,7 +15,7 @@ const HomePage = () => {
         </p>
         {/* Button group */}
         <div className="">
-          <button className="p-5 min-w-5 cursor-pointer border-none rounded-lg bg-white text-bg-soft-color font-medium mr-2 bg-bg-btn text-white">
+          <button className="p-5 min-w-5 cursor-pointer border-none rounded-lg text-bg-soft-color font-medium mr-2 bg-bg-btn text-white">
             Learn more
           </button>
           <button className="p-5 min-w-5 cursor-pointer border-none rounded-lg bg-white text-bg-soft-color font-medium">
