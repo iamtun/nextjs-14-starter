@@ -34,7 +34,7 @@ const protectedRouter = {
 const authRouter = {
   login: {
     url: '/login',
-    title: '',
+    title: 'Login',
   },
   register: {
     url: '/register',
