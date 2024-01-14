@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         'text-soft-color': 'var(--text-soft-color)',
         'bg-soft-color': 'var(--bg-soft-color)',
+        'bg-btn': 'var(--bg-btn)'
       },
     },
   },
