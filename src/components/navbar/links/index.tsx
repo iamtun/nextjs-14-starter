@@ -49,7 +49,7 @@ const Links = () => {
         Menu
       </button>
       {open && (
-        <nav className="absolute top-[100px] right-0 w-1/2 h-screen bg-inherit flex flex-col items-center justify-center gap-[10px] overflow-hidden duration-500 ease-in-out">
+        <nav className="absolute top-[100px] right-0 w-1/2 h-screen bg-bg-soft-color flex flex-col items-center justify-center gap-[10px] overflow-hidden duration-500 ease-in-out">
           {publicRouterToRender.map(({ title, url }, index) => (
             <NavLink
               url={url}
