@@ -13,9 +13,19 @@ const NavLink: React.FC<Props> = ({ url, title }) => {
   return (
     <Link
       href={url}
-      className={`min-w-[100px] p-[10px] rounded-[20px] font-medium text-center hover:bg-white hover:text-bg-soft-color ${
-        pathName === url ? 'bg-white text-bg-soft-color' : ''
-      }`}
+      className={`
+            min-w-[60px]
+            p-2
+            text-sm
+            lg:min-w-[100px]
+            lg:p-[10px]
+            lg:text-base
+            rounded-[20px] 
+            font-medium
+            text-center
+            hover:bg-white
+            hover:text-bg-soft-color
+            ${pathName === url ? 'bg-white text-bg-soft-color' : ''}`}
     >
       {title}
     </Link>
