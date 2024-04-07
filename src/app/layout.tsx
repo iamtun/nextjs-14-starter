@@ -16,7 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nutito.className}>{children}</body>
+      <body className={nutito.className}>
+        <header>Header</header>
+        {children}
+        <footer>Footer</footer>
+      </body>
     </html>
   );
 }
